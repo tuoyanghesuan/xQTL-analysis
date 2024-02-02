@@ -1,4 +1,4 @@
-# to sum up the significant assocaitions results from chromosome1-22
+# to sum up the significant assocaitions results from chromosome1-22 based on the results file from top.sh
 trait=$1
 xWAS=$2
 
