@@ -5,7 +5,7 @@ xWAS=$2
 dir_res="/home/disk3/luolingxue/qtl_review_supplementary/raw"
 dir=${dir_res}/${xWAS}/FUSION_assoc_test
 
-more weightfortopfile | while read weight number; # weightfortopfile is a file containing two columns, the columns1 is the file name of each weight for FUSION and column2 is the corresponding Number of features.
+more weightfortopfile | while read weight number; # weightfortopfile，a file containing two columns, obtained through the command 'join weight weightfortopfile' in Linux, in which weightfortopfile was from the featurenumber.sh. The columns1 is the file name of each weight for FUSION and column2 is the corresponding Number of features.
 do
   b=0.05/$((number))
   echo $b
