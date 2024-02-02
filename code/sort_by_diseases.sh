@@ -1,4 +1,4 @@
-# to sum up the significant asscoaition results in each weight file for five diseases
+# to sum up the significant asscoaition results in the same weight file for five diseases
 trait=$1
 res_dir="/home/disk3/luolingxue/qtl_review_supplementary/raw/dir_xWAS/arrange_by_diseases"
 dir="/home/disk3/luolingxue/qtl_review_supplementary/raw/dir_xWAS/dat_summary_GTEx"
