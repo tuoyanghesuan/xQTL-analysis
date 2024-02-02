@@ -19,5 +19,6 @@ range <- 1000000
     res$min_pval <- min_pval_result
     res$snp <- snp_result
     head(res)
-    write.table(res, file = ${trait}, sep = "\t", row.names = FALSE, quote = FALSE)
+    write.table(res, file = trait, sep = "\t", row.names = FALSE, quote = FALSE)
   }
+# traits is a file contaiing the names of five diseases
