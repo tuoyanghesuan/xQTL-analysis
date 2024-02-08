@@ -21,4 +21,4 @@ range <- 1000000
     head(res)
     write.table(res, file = trait, sep = "\t", row.names = FALSE, quote = FALSE)
   }
-# traits is a file contaiing the names of five diseases
+# traits is a file containing the names of five diseases
