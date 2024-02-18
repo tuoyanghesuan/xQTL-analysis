@@ -7,7 +7,7 @@ Performing the expression imputation by the traits and the xQTL.
 "xWAS" includes eQTL, sQTL, pQTL, m6AQTL.
 
 # 2.featurenumber.sh
-Ccalculating the number of molecular feature in each moelcular file, which was used as input to adjust the pvalue and store them in the file called 'weightfortopfile'. 
+Calculating the number of molecular feature in each moelcular file, which was used as input to adjust the pvalue and store them in the file called 'weightfortopfile'. 
 
 # 3.top.sh
 Getting the significant assocaitions results by adusting the number of feature, which corresponds to the results in the second column of weightfortopfile.
