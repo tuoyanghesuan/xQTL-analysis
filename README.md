@@ -10,7 +10,7 @@ Performing the expression imputation by the traits and the xQTL.
 Calculating the number of molecular feature in each moelcular file, which was used as input to adjust the pvalue and store them in the file called 'weightfortopfile'. 
 
 # 3.top.sh
-Getting the significant assocaitions results by adusting the number of feature, which corresponds to the results in the second column of weightfortopfile.
+Getting the significant assocaitions results by adusting the number of feature, which corresponds to the results in the second column of "weightfortopfile".
 
 # 4.sortdat.sh
 To sum up the significant assocaitions results from chromosome 1-22 based on the results file from top.sh.
