@@ -3,7 +3,9 @@
 # We explained the file one by one.
 # 1.fusion_assoc_dat.sh 
 Performing the expression imputation by the traits and the xQTL.
+
 "traits" includes SCZ, BP, ADHD, MDD, ASD.
+
 "xWAS" includes eQTL, sQTL, pQTL, m6AQTL.
 
 # 2.featurenumber.sh
@@ -20,10 +22,14 @@ To sum up the significant asscoaition results in the all weight file for each di
 
 # 6.smr.sh
 The code was based on the software smr downloaded from Yang lab (https://yanglab.westlake.edu.cn/software/smr/#Download).
+
 Detailed parameters can see https://yanglab.westlake.edu.cn/software/smr/#OptionsReference.
+
 "traits" includes SCZ, BP, ADHD, MDD, ASD.
+
 "weight" includes eQTL, sQTL, pQTL, m6AQTL, mQTL.
 
 # 7.novel.R
 This is used to find the novel genes which are constrast to the genes found in GWAS level.
+
 "traits" is a file containing the names of five diseases.
