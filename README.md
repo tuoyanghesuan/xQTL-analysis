@@ -1,6 +1,6 @@
-# xQTL-analysis.
-# This repository is set up for storing the code of xQTL analysis using SMR and FUSION.
-# We explained the file one by one.
+# xQTL-analysis
+# This repository is set up for storing the code of xQTL analysis using SMR and FUSION
+# Details for each file
 # 1.fusion_assoc_dat.sh 
 Performing the expression imputation by the traits and the xQTL.
 
